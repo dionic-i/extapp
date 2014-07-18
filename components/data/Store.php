@@ -8,7 +8,11 @@
  * @since 01.01.2013
  */
 
-class EnStore extends ExtStore
+namespace dionici\extapp\components\data;
+
+use dionici\extjs4\data\ExtStore;
+
+class Store extends ExtStore
 {
 	/**
 	 * Иденификатор модели данных (не уникален, выставляется названием набора, например: TenSrez)

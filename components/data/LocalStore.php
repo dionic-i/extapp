@@ -8,7 +8,9 @@
  * @since 13.06.2013
  */
 
-class EnLocalStore extends EnStore
+namespace dionici\extapp\components\data;
+
+class LocalStore extends Store
 {
 	/**
 	 * Локальные данные набора
