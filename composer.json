@@ -1,0 +1,33 @@
+{
+	"name"       : "dionic-i/extapp",
+	"description": "Yii2 extension for create ExtJS4 Desktop application",
+	"keywords"   : ["yii2", "extjs4", "php"],
+	"homepage"   : "https://github.com/dionic-i/extapp#readme",
+	"type"       : "library",
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name"    : "Ilya Petrushenko",
+			"email"   : "ilya.petrushenko@yandex.ru",
+			"homepage": "http://krasnogvardeec.ru",
+			"role"    : "Creator"
+		}
+	],
+	"support"    : {
+		"source": "https://github.com/dionic-i/extapp"
+	},
+	"require"    : {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	},
+	"autoload"   : {
+		"psr-4": {
+			"dionici\\extapp\\": ""
+		}
+	},
+	"extra"      : {
+		"branch-alias": {
+			"dev-master": "1.0.0-dev"
+		}
+	}
+}
